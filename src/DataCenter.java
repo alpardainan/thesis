@@ -4,8 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 // This class defines the object of DataCenter which has properties of longitude, latitude, and zara which shows if it is centralized or not.
 public class DataCenter {
 	
-	private int id = 0;
-	private double longitude = 0;
+    private int id = 0;
+    private double longitude = 0;
     private double latitude = 0;
     private int ram = 0;
     private int storage = 0;
@@ -14,7 +14,6 @@ public class DataCenter {
     int[][] assignment_list;
     public int num_base;
     public int num_service;
-    
     public DataCenter(){};
     
     public DataCenter(int id, double longitude, double latitude,int ram, int storage, int cpu, boolean zara, int num_base, int num_service){  
@@ -27,8 +26,7 @@ public class DataCenter {
     	this.setZARA(zara);
     	this.assignment_list = new int[num_base][num_service];
     	this.num_base = num_base;
-    	this.num_service = num_service;
-    			
+    	this.num_service = num_service;  			
     }
     
     // Copy Constructor
