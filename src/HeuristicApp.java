@@ -135,7 +135,6 @@ public class HeuristicApp{
         button4.setAlignmentX(Component.CENTER_ALIGNMENT);
         button4.addActionListener( new ActionListener(){
             public void actionPerformed(ActionEvent e){
-
             	JFileChooser chooser= new JFileChooser();
             	int choice = chooser.showOpenDialog(pane);
             	if (choice != JFileChooser.APPROVE_OPTION) return;
