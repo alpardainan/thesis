@@ -101,8 +101,7 @@ public class HeuristicApp{
         panel.add(Box.createRigidArea(new Dimension(30, 30)));
         panel.add(button2);
         panel.add(Box.createRigidArea(new Dimension(30, 30)));
-        
-        
+                
         button3 = new JButton("Add Data Centers");
         button3.setMaximumSize(new Dimension(150,100));
         button3.setAlignmentX(Component.CENTER_ALIGNMENT);
