@@ -132,7 +132,6 @@ public class BaseStation {
     	    k++;
     	    p *= Math.random();
     	  } while (p > L);
-
     	  return k - 1;
     	}
 }
