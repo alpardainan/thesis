@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.JTextArea;
-
 import ilog.concert.*;
 import ilog.cplex.*;
 
