@@ -4,8 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class BaseStation {
 	
-	private int id = 0;
-	private double longitude = 0;
+    private int id = 0;
+    private double longitude = 0;
     private double latitude = 0;
     private int cluster_number = 0;
     private ArrayList<Integer> service_demands;
